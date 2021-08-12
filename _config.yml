@@ -1,0 +1,212 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Mahsa Torkaman
+title: Postdoctoral Researcher at University of California, San Francisco (UCSF)
+email: Verified email at ucsf.edu
+#website: https://github.com/mahsa-torkaman/mtorkaman.github.io
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+twitter_username: DrTorkamaan
+#github_username:  mahsa-torkaman
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I am a postdoctoral researcher at University of California, San Francisco (UCSF), department of radiology and biomedical imaging. I am currently working on deep learning applications for SPECT/PET images.
+  My primary area of research is machine learning/deep learning applications in medical imaging to help physicians/radiologists in their diagnosis and patients treatment procedure.
+
+content:
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        #title:
+        #link: github.com/sproogen
+        # link_text: Project Website
+        #additional_links:
+        #  - title:  sproogen/modern-resume-theme
+        #    icon: fab fa-github
+        #    url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        #quote: >
+        #  This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          **Mahsa Torkaman**, Jaewon Yang et al., ”Data management and network architecture effect on performance variability in direct attenuation correction via deep learning for cardiac SPECT”, 2021, *IEEE Transactions on Radiation and Plasma Medical Sciences (TRPMS)* (recently submitted).
+
+      - layout: top-middle
+        description: | # this will include new lines to allow paragraphs
+          Shreeraj Jadhav, **Mahsa Torkaman** et al., ”Volume exploration using multidimensional Bhattacharyya flow”, 2021, *IEEE Transactions on Visualization and Computer Graphics (TVCG)* (revision submitted recently).
+
+      - layout: top-middle
+        description: | # this will include new lines to allow paragraphs
+          **Mahsa Torkaman**, Jaewon Yang et al., ”Development of a strategy against performance variability in direct attenuation correction via deep learning for SPECT myocardial perfusion imaging”, 2021, *IEEE Nuclear Science Symposium and Medical Imaging Conference (NSS MIC)*.
+
+      - layout: top-middle
+        description: | # this will include new lines to allow paragraphs
+          **Mahsa Torkaman**, Jaewon Yang et al., ”Direct image-based attenuation correction using conditional generative adversarial network for SPECT myocardial perfusion imaging”, 2021, *Proc. SPIE, Medical Imaging: Biomedical Applications in Molecular, Structural, and Functional Imaging*.
+
+      - layout: top-middle
+        description: | # this will include new lines to allow paragraphs
+          Rongping Zeng, **Mahsa Torkaman** et al., "A data‐efficient method for local noise power spectrum (NPS) estimation in FDK‐reconstructed 3D cone‐beam CT", 2019, *Medical physics*.
+
+      - layout: top-middle
+        description: | # this will include new lines to allow paragraphs
+          **Mahsa Torkaman**, Romeil Sandhu, and Allen Tannenbaum, "Extraction of breast lesions from ultrasound imagery: Bhattacharyya gradient flow approach", 2018, *Medical Imaging: Image Processing. International Society for Optics and Photonics*.
+
+      - layout: top-middle
+        description: |
+            Rongping Zeng,  Congxian Jia, Nima Akhlaghi, **Mahsa Torkaman** et al, "Measuring breast motion at multiple DBT compression levels using ultrasound speckle-tracking techniques", 2018, *International Workshop on Breast Imaging (IWBI)*.
+
+      - layout: top-middle
+        description: |
+            Rongping Zeng, **Mahsa Torkaman**, and Kyle Myers, "Estimating 3D local noise power spectrum from a few FDK- reconstructed cone-beam CT scans", 2017, *Medical Imaging: Physics of Medical Imaging. International Society for Optics and Photonics*.
+
+      - layout: top-middle
+        description: |
+            **Mahsa Torkaman**, Liangjia Zhu, Peter Karasev, and Allen Tannenbaum, "Sulci segmentation using geometric active contours", 2017, *In Medical Imaging: Image Processing. International Society for Optics and Photonics*.
+
+  - title: Professional Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Hologic, breast and skeletal division.
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Machine learning research intern
+        caption: Summer 2018
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            During my time at Hologic I worked on preprocessing and classification of pre-detected masses in mammography systems using deep learning and image processing approaches. We used GoogLeNet architecture for the classification task.
+
+            Tools used: Matlab, Python, TensorFlow.
+      - layout: left
+        title: Food and drug administration (FDA), division of imaging.
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Research intern
+        caption: Summer 2017
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            During my time at FDA I worked on a research project to investigate how moving from full breast compression to lower compression levels in digital breast tomosynthesis (DBT) systems will affect the quality of images in terms of breast tissue motion. Due to the legacy design of DBT systems, women continue to undergo full breast compression in DBT exams which is uncomfortable and even painful. Our study can help to make breast cancer screening less uncomfortable and therefore more accessible to women, without decreasing the quality of diagnostic images. Initial data analysis can be found [here](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10718/107180L/Measuring-breast-motion-at-multiple-DBT-compression-levels-using-ultrasound/10.1117/12.2318394.short).
+      - layout: left
+        title: Food and drug administration (FDA), division of imaging.
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Research intern
+        caption: Summer 2016
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            I worked on developing a data-efficient method for local noise power spectrum (NPS) estimation in FDK reconstructed 3D cone-beam CT systems. This work is important because NPS plays a vital role in evaluation and stochastic behavioral assessment of CT systems at FDA.
+            Links to the papers related to this work can be found here: [1](https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.13428?casa_token=j77RoBIEVOgAAAAA:iOgKRkr4tJYs23i7Xlf6hZock2NLIm7h1h8IbbBodLJQqJ7cp4G7WvQ4YZYsR0UEYVbAQ7Xo9wboVF0), [2](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10132/101322D/Estimating-3D-local-noise-power-spectrum-from-a-few-FDK/10.1117/12.2255541.short).
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Stony Brook University
+        caption: 2014 - 2019
+        sub_title: PhD Computer Science
+        #quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          I received my doctoral degree in Computer Science from Stony Brook university in December 2019.  During my PhD I worked on mathematical medical image analysis and image processing for enhancement, segmentation, and registration applications.
+      - layout: left
+        title: Stony Brook University
+        caption:
+        sub_title: MS Computer Science
+        #quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          I received my master degree on the way to my Ph.D.
+      - layout: left
+        title: Amirkabir University of Technology
+        caption: 2008 - 2012
+        sub_title: BS Computer Science
+        #quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+
+  - title: Teaching Experience
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Stony Brook University
+      - TA for CSE 312: Legal, Social, and Ethical Issues in Information Systems, Spring, Fall 2019.
+      - TA for CSE 548: Graduate Analysis of Algorithm, Fall 2018.
+      - TA for CSE214: Introduction to data structures and algorithms, Spring 2015.
+      - TA for CSE 300: Technical Communications, Spring 2015.
+      - TA for CSE114: Procedural and object-oriented programming, Fall 2014.
+
+
+  - title: Awards
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Best teaching assistant award. Stony Brook University. 2019.
+      - Computing Research Association, Grad Cohort Workshop for Women scholarship (CRA-W). 2018
+      - Grace hopper women in computing scholarship. 2017.
+      - ORISE fellowship, FDA imaging division. 2016 and 2017.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in machine learning/deep learning and image processing some of my other interests and hobbies are:
+      - Playing piano
+      - Hiking
+      - Video games
+
+
+
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
